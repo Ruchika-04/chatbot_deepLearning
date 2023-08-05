@@ -1,0 +1,217 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+      {
+      "tag": "About ANN",
+      "patterns": [
+        "What is ANN?"
+      ],
+      "responses": [
+        "An artificial neural network is a computational model inspired by the structure and function of the biological nervous system that can be trained to perform tasks such as pattern recognition and prediction."
+      ]
+    },
+      {
+            "tag": "Working of  ANN",
+            "patterns": ["How ANN works?"],
+            "responses": ["Artificial neural networks work by processing input data through layers of interconnected nodes, applying mathematical functions to the data, and adjusting the weights of the connections between nodes during training to improve accuracy in performing a given task."]
+        },
+        {
+            "tag": "ANN Topologies",
+            "patterns": ["What are the topologies ANN"],
+            "responses": ["The topologies of artificial neural networks refer to the arrangement of nodes and connections, including feedforward, recurrent, convolutional, and long short-term memory networks."]
+
+        },
+        {
+            "tag": "ANN Topologies",
+            "patterns": ["What are the topologies ANN"],
+            "responses": ["The topologies of artificial neural networks refer to the arrangement of nodes and connections, including feedforward, recurrent, convolutional, and long short-term memory networks."]  
+        },
+        {
+            "tag": "ANN Activation Functions",
+            "patterns": ["What are the activation functions of ANN?"],
+            "responses": ["Activation functions in artificial neural networks determine the output of a node by applying a mathematical function to the weighted sum of inputs, allowing the network to introduce non-linearity and improve its ability to model complex relationships between inputs and outputs, with popular functions including sigmoid, ReLU, and tanh."]  
+
+        },
+        {
+            "tag": "Gradient Descent in ANN",
+            "patterns": ["How Gradient works in ANN?"],
+            "responses": ["Gradient descent in artificial neural networks is a process of updating the weights of connections between nodes by iteratively computing the gradients of the loss function with respect to the weights and adjusting them in the opposite direction of the gradient to minimize the loss and improve the network's performance."]  
+
+        },
+        {
+            "tag": "Gradient Descent in ANN",
+            "patterns": ["How Gradient works in ANN?"],
+            "responses": ["Gradient descent in artificial neural networks is a process of updating the weights of connections between nodes by iteratively computing the gradients of the loss function with respect to the weights and adjusting them in the opposite direction of the gradient to minimize the loss and improve the network's performance."]  
+        },
+        {
+           
+            "tag": "Back Propogation in ANN",
+            "patterns": ["How Back Propogation works in ANN?"],
+            "responses": ["Backpropagation in artificial neural networks is a widely used algorithm for efficiently computing the gradients of the loss function with respect to the weights in a multi-layer network by propagating the error back from the output layer to the input layer, allowing for effective training through gradient descent."]   
+        },
+        {
+           
+            "tag": "Advantage of ANN",
+            "patterns": ["What is the main advantage of ANN?"],
+            "responses": ["The main advantage of artificial neural networks is their ability to learn and model complex nonlinear relationships between inputs and outputs, making them well-suited for tasks such as pattern recognition, classification, prediction, and control in various fields including image and speech recognition, natural language processing, and robotics."]   
+        },
+        {
+           
+            "tag": "Limitation of ANN",
+            "patterns": ["What is the major limitation of ANN?"],
+            "responses": ["One major limitation of artificial neural networks is their lack of interpretability, as the learned models can be opaque and difficult to understand, making it challenging to explain how the network arrives at its predictions or decisions, and hindering their adoption in applications where transparency and accountability are critical."]   
+        },
+        {
+           
+            "tag": "Clustering",
+            "patterns": ["What is clustering?"],
+            "responses": ["Clustering is a machine learning technique that groups together similar data points into clusters based on their characteristics or attributes."]   
+        },
+        {
+           
+            "tag": "Clustering techniques",
+            "patterns": ["What are clustering techniues?"],
+            "responses": ["Different clustering techniques include K-means, hierarchical, density-based, fuzzy, spectral, affinity propagation, DBSCAN, agglomerative, PAM, and mean shift clustering, each with its own approach to grouping similar data points together into clusters."]   
+        },
+        {
+           
+            "tag": "K-means Clustering",
+            "patterns": ["What is K-means in clustering?"],
+            "responses": ["K-means is a clustering algorithm that divides a set of data points into k clusters based on the mean distance between each data point and the center of the cluster."]   
+        },
+        {
+           
+            "tag": "CLARA Clustering",
+            "patterns": ["What is CLARA in clustering?"],
+            "responses": ["CLARA (Clustering LARge Applications) is a clustering algorithm that uses sampling techniques to improve the efficiency of clustering large datasets by repeatedly sampling smaller subsets of the data to produce representative clusters."]   
+        },
+        {
+           
+            "tag": "Hierarchical methods Clustering",
+            "patterns": ["What are hierarchical methods  in clustering?"],
+            "responses": ["Hierarchical methods in clustering are a family of algorithms that create a hierarchical decomposition of the data by recursively partitioning it into nested clusters based on their similarities and dissimilarities."]   
+        },
+        {
+           
+            "tag": "EM Algorithm",
+            "patterns": ["What is Expectation Minimization algorithm?"],
+            "responses": ["Expectation Maximization (EM) is a statistical algorithm that iteratively estimates the parameters of a statistical model by alternating between computing the expected likelihood of the model given the data (E-step) and maximizing that likelihood with respect to the model parameters (M-step)."]   
+        },
+        {
+           
+            "tag": "Ada-Boost",
+            "patterns": ["What is Adaboost algorithm?"],
+            "responses": ["Adaboost (Adaptive Boosting) is a machine learning algorithm that combines multiple weak classifiers to create a strong classifier by iteratively training the model on difficult examples and adjusting the weights of the training data."]   
+        },
+        {
+           
+            "tag": "NLP",
+            "patterns": ["What is NLP algorithm?"],
+            "responses": ["Natural Language Processing (NLP) is a field of study focused on developing algorithms and models that enable computers to understand, interpret, and generate human language."]   
+        },
+        {
+           
+            "tag": "Top Modelling NLP",
+            "patterns": ["What is Top Modelling in NLP?"],
+            "responses": ["Topic modeling is a statistical algorithm in NLP that identifies the topics or themes present in a collection of text documents by analyzing the frequency and distribution of words across the documents, and grouping the words into topics based on their co-occurrence patterns."]   
+        },
+        {
+           
+            "tag": "HMM",
+            "patterns": ["What is HMM Algorithm?"],
+            "responses": ["Hidden Markov Model (HMM) is a statistical model that predicts the probability of a sequence of observable events based on a sequence of hidden states that are not directly observable."]   
+        },
+        {
+           
+            "tag": "HMM",
+            "patterns": ["How HMM tagging Algorithm works?"],
+            "responses": ["HMM tagging algorithm works by training a Hidden Markov Model on a labeled dataset of input sequences and their corresponding output sequences (tags), and then using the model to predict the most likely sequence of tags for new input sequences by computing the probability of each possible tag sequence using the Viterbi algorithm."]   
+        },
+        {
+           
+            "tag": "POS Tagging",
+            "patterns": ["What is POS Tagging Algorithm?"],
+            "responses": ["POS Tagging (Part-of-Speech Tagging) Algorithm is a process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.) based on its context and definition in the sentence."]   
+        }
+      
+  ]
+}
